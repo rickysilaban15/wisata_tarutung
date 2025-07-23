@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg-light text-text-primary font-sans dark:bg-bg-dark dark:text-brand-secondary;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  /* Tambahkan efek glowing/fire text */
+  .text-fire {
+    background: linear-gradient(90deg, #f97316, #fb923c, #facc15);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: flicker 1.8s infinite;
+    text-shadow: 0 0 10px #f97316, 0 0 20px #fb923c, 0 0 40px #facc15;
+  }
+}
