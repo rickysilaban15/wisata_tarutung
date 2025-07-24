@@ -16,14 +16,14 @@ const Kontak: React.FC = () => {
        <input
   type="hidden"
   name="_autoresponse"
-  value="🎉 Terima kasih sudah menghubungi kami! Kami akan segera membalas pesan Anda. || 🎉 Mauliate hasian! Pas ni suratmu tu hami, tarida do balosna gabe!"
+  value="🎉 Terima kasih sudah menghubungi kami! Kami akan segera membalas pesan Anda. || 🎉 Mauliate hasian! Nga Sahat be Suratmi "
 />
 
 
         <input
   type="hidden"
   name="_next"
-  value="http://localhost:5173/Terkirim"
+  value="https://wisata-tarutung.vercel.app/Terkirim"
 />
 
 
